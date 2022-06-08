@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "ebd861aa-5df4-4eba-8daf-b0cf25902295",
+		"name": "Technical assessment Makoto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5302216"
+	},
+	"item": [
+		{
+			"name": "GET - athletes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/athletes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"athletes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Athletes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"victor\",\n    \"age\": 26,\n    \"sport\": \"baseball\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/athletes",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"athletes"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
